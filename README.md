@@ -1,6 +1,6 @@
 ## Introduction
 - 基于 python 的聊天室
-- 无 GUI ,输入输出输出均在命令行
+- 无 GUI ,输入输出均在命令行
 - 单纯学习 socket 简易搭建
 - 目前只支持多人群聊
 - 可自己 copy client.py 文件进行测试多人聊天
