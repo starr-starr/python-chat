@@ -1,4 +1,3 @@
-import sys
 from socket import *
 import threading
 
@@ -22,7 +21,6 @@ class Client:
             main_thread.start()
 
             self.send()
-            sys.exit()
     def recv_data(self):
         while self.isConnected:
             text = self.client_socket.recv(1024).decode('utf8')
